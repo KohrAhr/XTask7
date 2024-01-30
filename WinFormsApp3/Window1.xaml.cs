@@ -30,5 +30,11 @@ namespace WinFormsApp3
             //
             this.Title += AppDataCore.AppName;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
     }
 }

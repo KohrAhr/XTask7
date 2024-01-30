@@ -9,6 +9,7 @@
     <Grid Margin="222,38,10,0">
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,-30,0,30"/>
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="-213,-30,0,198" HorizontalAlignment="Left" Width="208"/>
+        <Button Content="Open WinForm window" HorizontalAlignment="Left" Margin="-213,267,0,0" VerticalAlignment="Top" Click="Button_Click" Width="208"/>
 
     </Grid>
 </Window>
