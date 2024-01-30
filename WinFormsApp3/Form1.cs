@@ -1,3 +1,5 @@
+using WinFormsApp3.AppData;
+
 namespace WinFormsApp3
 {
     public partial class Form1 : Form
@@ -5,6 +7,8 @@ namespace WinFormsApp3
         public Form1()
         {
             InitializeComponent();
+
+            AppDataCore.AppName = "100500!";
         }
 
         private void button1_Click(object sender, EventArgs e)

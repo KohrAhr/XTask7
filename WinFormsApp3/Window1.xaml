@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WinFormsApp3"
         mc:Ignorable="d"
-        Title="WPF Window" Height="450" Width="800">
+        Title="WPF Window" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid Margin="222,38,10,0">
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,-30,0,30"/>
         <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Margin="-213,-30,0,198" HorizontalAlignment="Left" Width="208"/>

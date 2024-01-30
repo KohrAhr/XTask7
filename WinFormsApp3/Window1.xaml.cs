@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WinFormsApp3.AppData;
 
 namespace WinFormsApp3
 {
@@ -22,6 +23,12 @@ namespace WinFormsApp3
         public Window1()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //
+            this.Title += AppDataCore.AppName;
         }
     }
 }
